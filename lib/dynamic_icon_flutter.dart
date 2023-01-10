@@ -44,6 +44,6 @@ class DynamicIconFlutter {
       'icon': icon,
       'listAvailableIcon': listAvailableIcon
     };
-    await _channel.invokeListMethod('setIcon', data);
+    await _channel.invokeMethod('setIcon', data);
   }
 }

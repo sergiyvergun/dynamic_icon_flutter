@@ -63,7 +63,6 @@ class DynamicIconFlutterPlugin : ContextAwarePlugin() {
                     action, PackageManager.DONT_KILL_APP
             )
         }
-        return true;
 
 //        //finish current activity & launch new intent to prevent app from killing itself!
 //        //check if android version is greater than 8
